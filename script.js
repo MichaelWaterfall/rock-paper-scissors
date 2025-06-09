@@ -6,5 +6,9 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
+    let choie = prompt("Pick rock, paper or scissors");
+}
 
+function playRound() {
+    
 }
