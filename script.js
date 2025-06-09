@@ -6,9 +6,15 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    let choie = prompt("Pick rock, paper or scissors");
+    let choice = prompt("Pick rock, paper or scissors");
+    return choice;
 }
 
-function playRound() {
-    
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+function playRound(humanChoice, computerChoice) {
+
 }
+
+playRound(humanSelection, computerSelection);
