@@ -17,4 +17,8 @@ function playRound(humanChoice, computerChoice) {
 
 }
 
+function playGame() {
+    
+}
+
 playRound(humanSelection, computerSelection);
