@@ -60,12 +60,13 @@ function playGame() {
     else if (humanScore > computerScore) {
         console.log("You win");
     }
-    else {
-        console.log("Human Score: " + humanScore);
-        console.log("Computer Score: " + computerScore);
-        console.log("Round: " + round);
-        console.log("You lose")
-    }
+    console.log("Human Score: " + humanScore);
+    console.log("Computer Score: " + computerScore);
+    console.log("Round: " + round);
+    
+}
+
+function finishGame() {
     
 }
 
